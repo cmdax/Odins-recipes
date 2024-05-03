@@ -16,3 +16,9 @@
     color: brown;
     font-size: large;
 }
+
+.subtitle{
+    background-color: gold;
+    color: black;
+    text-align: center;
+}
