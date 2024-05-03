@@ -7,7 +7,7 @@ div.main-title{
     height: auto;
     width: 100%;
 
-    /*margins*/
+    /* margins */
     margin-left:auto;
     margin-right: auto;
     margin-top: 100px;
@@ -21,10 +21,13 @@ div.main-title{
     background-color: #FFA2B6;*/
 }
 
-.title{
+#recipe-name{
+    /* color */
     background-color: transparent;
     color: #E43D12;
-    font-size: 50px;
+
+    /* font */
+    font-size: 100px;
     font-weight: bold;
     text-align: center;
 }
@@ -39,7 +42,7 @@ div.element{
 
     /* size */
     height: auto;
-    width: 50%;
+    width: 65%;
 }
 
 div.element.odd{
@@ -58,7 +61,7 @@ div.element.even{
 
 div.subtitle-name{
     /* border */
-    border: 5px solid #EFB11D;
+    border: 10px solid #EFB11D;
     border-radius: 25px;
 
     /* position of child */
@@ -75,7 +78,7 @@ div.subtitle-name{
 
     /* size */
     width: 85%;
-    height: 30px;
+    height: 60px;
 }
 
 .subtitle{
@@ -87,12 +90,22 @@ div.subtitle-name{
     height: auto;
     width: 75%;
 
-    /* margins */
+    /* position */
     margin-left:auto;
     margin-right: auto;
+    margin-top: 37px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     /* border */
     border-radius: 5px;
+
+    /* font */
+    font-size: 40px;
 }
 
 /* 3. content */
@@ -112,15 +125,38 @@ div.subtitle-element {
      margin: auto;
 
      /* fonts */
-     font-size: large;
-
-     /* size */
-     height: auto;
-     width: 100%;
-
-
+     font-size: 25px;
 }
 
+div.subtitle-element li {
+    /* position */
+    margin-bottom: 10px;
+    text-align: left;
+
+    /* size */
+    height: auto;
+    width: 70%;
+}
+
+.element.odd div.subtitle-element li {
+    /* position */
+    margin-left: 25%;
+    text-align: center;
+
+    /* size */
+    height: auto;
+    width: 50%;
+}
+
+.element.even div.subtitle-element li {
+    /* position */
+    margin-right: 21%;
+    margin-left: auto;
+
+    /* size */
+    height: auto;
+    width: 60%;
+}
 .recipe-photo{
     /* position */
     display: block;
@@ -129,7 +165,7 @@ div.subtitle-element {
 
     /* size */
     height: auto;
-    width: 500px;
+    width: 700px;
 
     /* border */
     border-radius: 25px;
