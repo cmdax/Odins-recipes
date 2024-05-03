@@ -22,22 +22,34 @@ div.redirect.link{
     text-align: center;
 }
 
-.subtitle{
-    /* colors */
-    background-color: gold;
-    color: black;
-
-    /* dimensions */
-    height: auto;
-    width: 85%;
+div.element{
+    background-color: transparent;
 
     /* margins */
-    margin-left:auto;
-    margin-right: auto;
+    margin-bottom: 200px;
+
+    /* size */
+    height: auto;
+    width: 50%;
 }
 
+div.element.odd{
+    /* margins */
+    margin-left: 5%;
+}
+
+div.element.even{
+    /* margins */
+
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+
 div.subtitle-name{
+    /* border */
     border: 5px solid white;
+    border-radius: 25px;
 
     /* position of child */
     text-align: center;
@@ -51,11 +63,23 @@ div.subtitle-name{
     margin-top: 50px;
     margin-bottom: 50px;
 
-    /* dimension */
-    width: 50%;
+    /* size */
+    width: 85%;
     height: 30px;
-    
-    
+}
+
+.subtitle{
+    /* colors */
+    background-color: gold;
+    color: black;
+
+    /* size */
+    height: auto;
+    width: 75%;
+
+    /* margins */
+    margin-left:auto;
+    margin-right: auto;
 }
 
 div.subtitle-element {
@@ -67,7 +91,7 @@ div.subtitle-element {
 
      /* dimension */
      height: auto;
-     width: 50%;
+     width: 100%;
 
      /* margins */
      margin: auto;
@@ -83,8 +107,27 @@ div.subtitle-element {
     width: 500px;
 }
 
-.title{
+div.main-title{
+    /*size*/
+    height: auto;
+    width: 50%;
+
+    /*margins*/
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    /* border */
+    border: 5px solid white ;
+    border-radius: 100px;
+
+    /* color */
     background-color: red;
+}
+
+.title{
+    background-color: transparent;
     font-size: 50px;
     font-weight: bold;
     text-align: center;

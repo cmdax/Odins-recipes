@@ -7,23 +7,33 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1 class="title" id="recipe name">RECIPE_NAME</h1>
+    <div class="main-title">
+        <h1 class="title" id="recipe name">RECIPE_NAME</h1>
+    </div>
+
     <!-- Add image of the finished dish -->
-        <div class="subtitle-name odd">
+    <div class="element odd">
+        <div class="subtitle-name">
             <h2 class="subtitle">Photo</h2>
         </div>
         <div class="subtitle-element">
             <img class="recipe-photo" src="./images/computer.png" alt="">
         </div>
+    </div>
+
     <!-- Add appropriate description -->
-        <div class="subtitle-name even">
+    <div class="element even">
+        <div class="subtitle-name">
             <h2 class="subtitle" id="description">Description</h2>
         </div>
-        <div class="subtitle-element odd">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus illo ratione nihil soluta odit ad aliquid quidem, dolorum corrupti. Dicta harum minus ipsam vero, tenetur perferendis aspernatur saepe. At. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptas minus doloremque consequatur impedit a id est eius nulla, praesentium nihil, placeat temporibus? Est esse atque vero cupiditate. Vel, odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, facilis fugit in tenetur optio aliquam eaque quasi obcaecati molestiae corrupti ipsa cumque voluptatem blanditiis voluptas doloremque tempore animi? Amet, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur possimus autem, eum illum, omnis obcaecati nemo aut quis dolor ad assumenda excepturi dignissimos iusto culpa perferendis magnam tempora alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem distinctio aut pariatur consequatur nisi quae! Animi necessitatibus minima magni quod similique aliquam, quia alias assumenda, perspiciatis, dolorem iste velit fugiat.</p>
+        <div class="subtitle-element">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus illo ratione nihil soluta odit ad aliquid quidem, dolorum corrupti. Dicta harum minus ipsam vero, tenetur perferendis aspernatur saepe. At. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptas minus doloremque consequatur impedit a id est eius nulla, praesentium nihil, placeat temporibus? Est esse atque vero cupiditate. Vel, odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, facilis fugit in tenetur optio aliquam eaque quasi obcaecati molestiae corrupti ipsa cumque voluptatem blanditiis voluptas doloremque tempore animi? Amet, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur possimus autem, eum illum, omnis obcaecati nemo aut quis dolor ad assumenda excepturi dignissimos iusto culpa perferendis magnam tempora alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem distinctio aut pariatur consequatur nisi quae! Animi necessitatibus minima magni quod similique aliquam, quia alias assumenda, perspiciatis, dolorem iste velit fugiat.</p>
         </div>
+    </div>
+
     <!-- Add Ingredients in unordered list -->
-        <div class="subtitle-name even">
+    <div class="element odd">
+        <div class="subtitle-name">
             <h2 class="subtitle" id="ingredients">Ingredients</h2>
         </div>
         <div class="subtitle-element">
@@ -37,7 +47,10 @@
 
                 </ul>
         </div>
+    </div>
+
     <!-- Add steps in ordered list -->
+    <div class="element even">
         <div class="subtitle-name">
             <h2 class="subtitle" id="steps">Steps</h2>
         </div>
@@ -52,6 +65,8 @@
                     <li></li>
                 </ol>
         </div>
+    </div>
+
     <div class="redirect link" style="text-align: center;">
         <a class="homepage redirect" href="../index.html">Return to recipe list</a>
     </div>
