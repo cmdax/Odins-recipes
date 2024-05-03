@@ -18,12 +18,30 @@
     font-weight: bold;
 }
 
-.redirect.recipe{
-    color: brown;
-    font-size: large;
-}
-
 div.redirect.link{
     text-align: center;
 }
 
+/* --------- index --------- */
+
+#website-name h1{
+    /* position */
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+
+    /* font */
+    font-size: 200px
+
+    /* size */
+}
+
+.list-recipes{
+    /* position */
+    margin: auto;
+    text-align: center;
+
+    /* font */
+    font-size: 50px;
+} 
