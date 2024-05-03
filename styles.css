@@ -23,9 +23,56 @@ div.redirect.link{
 }
 
 .subtitle{
+    /* colors */
     background-color: gold;
     color: black;
+
+    /* dimensions */
+    height: auto;
+    width: 85%;
+
+    /* margins */
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div.subtitle-name{
+    border: 5px solid white;
+
+    /* position of child */
     text-align: center;
+    
+    /* colors */
+    background-color: transparent;
+
+    /* margins */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* dimension */
+    width: 50%;
+    height: 30px;
+    
+    
+}
+
+div.subtitle-element {
+    /* colors */
+     background-color: transparent;
+
+     /* position of child */
+     text-align: center;
+
+     /* dimension */
+     height: auto;
+     width: 50%;
+
+     /* margins */
+     margin: auto;
+
+
 }
 
 .recipe-photo{
