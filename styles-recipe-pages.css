@@ -1,0 +1,136 @@
+/* --------- recipe pages --------- */
+
+/* 1. title */
+
+div.main-title{
+    /* size */
+    height: auto;
+    width: 100%;
+
+    /*margins*/
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    /* border 
+    border: 5px solid white ;
+    border-radius: 100px;*/
+
+    /* color 
+    background-color: #FFA2B6;*/
+}
+
+.title{
+    background-color: transparent;
+    color: #E43D12;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 2.1 page elements */
+
+div.element{
+    background-color: transparent;
+
+    /* margins */
+    margin-bottom: 200px;
+
+    /* size */
+    height: auto;
+    width: 50%;
+}
+
+div.element.odd{
+    /* margins */
+    margin-left: 5%;
+}
+
+div.element.even{
+    /* margins */
+
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+/* 2.2 element-name */
+
+div.subtitle-name{
+    /* border */
+    border: 5px solid #EFB11D;
+    border-radius: 25px;
+
+    /* position of child */
+    text-align: center;
+    
+    /* colors */
+    background-color: transparent;
+
+    /* margins */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* size */
+    width: 85%;
+    height: 30px;
+}
+
+.subtitle{
+    /* colors */
+    background-color: #FFA2B6;
+    color: #D6536D;
+
+    /* size */
+    height: auto;
+    width: 75%;
+
+    /* margins */
+    margin-left:auto;
+    margin-right: auto;
+
+    /* border */
+    border-radius: 5px;
+}
+
+/* 3. content */
+
+div.subtitle-element {
+    /* colors */
+     background-color: transparent;
+
+     /* position of child */
+     text-align: center;
+
+     /* dimension */
+     height: auto;
+     width: 100%;
+
+     /* margins */
+     margin: auto;
+
+     /* fonts */
+     font-size: large;
+
+     /* size */
+     height: auto;
+     width: 100%;
+
+
+}
+
+.recipe-photo{
+    /* position */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* size */
+    height: auto;
+    width: 500px;
+
+    /* border */
+    border-radius: 25px;
+}
