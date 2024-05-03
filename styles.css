@@ -6,6 +6,7 @@
 
 .redirect {
     font-weight: 300;
+    
 }
 
 .redirect.homepage{
@@ -15,6 +16,10 @@
 .redirect.recipe{
     color: brown;
     font-size: large;
+}
+
+div.redirect.link{
+    text-align: center;
 }
 
 .subtitle{
