@@ -4,7 +4,7 @@ The aim of this project is to practice the core concepts of HTML.
 
 Log:
 
-02.05.24
+02.05.24  
 Create the website with basic HTML.
 
 03.05.24  
