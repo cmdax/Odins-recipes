@@ -3,3 +3,16 @@
     background-color: black;
     color: white;
 }
+
+.redirect {
+    font-weight: 300;
+}
+
+.redirect.homepage{
+    color: aquamarine;
+}
+
+.redirect.recipe{
+    color: brown;
+    font-size: large;
+}
