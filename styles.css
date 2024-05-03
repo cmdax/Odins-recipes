@@ -1,7 +1,7 @@
 *{
     font-family: Georgia, "Times New Roman", serif;
-    background-color: black;
-    color: white;
+    background-color: #EBE9E1;
+    color: #E43D12;
 }
 
 .redirect {
@@ -10,7 +10,8 @@
 }
 
 .redirect.homepage{
-    color: aquamarine;
+    color: #EFB11D;
+    font-weight: bold;
 }
 
 .redirect.recipe{
@@ -48,7 +49,7 @@ div.element.even{
 
 div.subtitle-name{
     /* border */
-    border: 5px solid white;
+    border: 5px solid #EFB11D;
     border-radius: 25px;
 
     /* position of child */
@@ -70,8 +71,8 @@ div.subtitle-name{
 
 .subtitle{
     /* colors */
-    background-color: gold;
-    color: black;
+    background-color: #FFA2B6;
+    color: #D6536D;
 
     /* size */
     height: auto;
@@ -80,6 +81,9 @@ div.subtitle-name{
     /* margins */
     margin-left:auto;
     margin-right: auto;
+
+    /* border */
+    border-radius: 5px;
 }
 
 div.subtitle-element {
@@ -96,19 +100,32 @@ div.subtitle-element {
      /* margins */
      margin: auto;
 
+     /* fonts */
+     font-size: large;
+
+     /* size */
+     height: auto;
+     width: 100%;
+
 
 }
 
 .recipe-photo{
+    /* position */
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    /* size */
     height: auto;
     width: 500px;
+
+    /* border */
+    border-radius: 25px;
 }
 
 div.main-title{
-    /*size*/
+    /* size */
     height: auto;
     width: 50%;
 
@@ -118,16 +135,17 @@ div.main-title{
     margin-top: 100px;
     margin-bottom: 100px;
 
-    /* border */
+    /* border 
     border: 5px solid white ;
-    border-radius: 100px;
+    border-radius: 100px;*/
 
-    /* color */
-    background-color: red;
+    /* color 
+    background-color: #FFA2B6;*/
 }
 
 .title{
     background-color: transparent;
+    color: #E43D12;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
